@@ -20,10 +20,6 @@ import java.util.Date;
  2. 没有：是第一次访问
      1. 响应数据：您好，欢迎您首次访问
      2. 写回Cookie：lastTime=2018年6月10日11:50:01
-
-
-
-
  */
 
 @WebServlet("/cookieTest")

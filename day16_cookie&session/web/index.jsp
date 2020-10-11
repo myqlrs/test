@@ -11,9 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-
-
-
       <%
         System.out.println("hello jsp");
         int i = 5;
@@ -26,7 +23,6 @@
         int i = 3;
       %>
       <%= "hello" %>
-
 
       System.out.println("hello jsp");
       <h1>hi~ jsp!</h1>

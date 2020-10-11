@@ -24,8 +24,8 @@ public class RequestDemo4 extends HttpServlet {
         if(referer != null ){
             if(referer.contains("/day14")){
                 //正常访问
-               // System.out.println("播放电影....");
-                response.setContentType("text/html;charset=utf-8");
+                // System.out.println("播放电影....");
+                response.setContentType("text/html;charset=utf-8");//设置编码格式
                 response.getWriter().write("播放电影....");
             }else{
                 //盗链

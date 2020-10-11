@@ -1,5 +1,7 @@
 package cn.itcast.cookie;
 
+import sun.util.resources.cldr.kk.CalendarData_kk_Cyrl_KZ;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -18,7 +20,7 @@ import java.io.IOException;
 public class CookieDemo1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1.创建Cookie对象
-        Cookie c = new Cookie("msg","hello");
+        Cookie c = new Cookie("msg", "hello");
         //2.发送Cookie
         response.addCookie(c);
     }
